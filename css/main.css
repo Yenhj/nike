@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* 폰트링크 */
+@import url("");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+html {
+  font-size: 16px;
+}
+body {
+  /* 기본 글꼴, 자간 */
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: #000;
+}
+/* 공통 요소(클래스) */
+.clearfix::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.container {
+  position: relative;
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* 레이아웃 */
+.wrap {
+  position: relative;
+  display: block;
+}
